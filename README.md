@@ -2,6 +2,7 @@ This is something I've used internally forever in some version or another for im
 
 To use this:
 - install nuget package **GridEidtor.RazorPages**
-- in your Razor page, reference 
+- reference javascript: https://cdn.jsdelivr.net/gh/adamosoftware/GridEditor.RazorPages@1.0.1/js/GridEditor.min.js
 
-Rather than give a step-by-step
+Examples:
+- Razor page: https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Applications.cshtml with [save](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L32) and [delete](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L39) handlers
