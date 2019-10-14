@@ -46,7 +46,7 @@ function DataGridCancelEdit(onActionCompletedFunction) {
 function DataGridDeleteRow(deleteFormId, rowId) {
     if (confirm("This will delete the record.")) {
         var form = document.getElementById(deleteFormId);
-        form.elements["Id"].value = rowId;
+        form.elements["ID"].value = rowId;
         form.submit();
     }
 }
