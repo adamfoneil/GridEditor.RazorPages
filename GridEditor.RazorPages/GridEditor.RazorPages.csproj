@@ -8,6 +8,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/adamosoftware/GridEditor.RazorPages</RepositoryUrl>
     <Copyright>Copyright (c) 2019 Adam O'Neil</Copyright>
+    <Version>1.0.0-beta</Version>
   </PropertyGroup>
 
   <ItemGroup>
