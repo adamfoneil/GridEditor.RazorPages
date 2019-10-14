@@ -13,7 +13,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.Encodings.Web;
 
-namespace SqlChartify.App.Classes
+namespace GridEditor.RazorPages
 {
     public class GridEditor<TRecord> where TRecord : class, new()
     {
