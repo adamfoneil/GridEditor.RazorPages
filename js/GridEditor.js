@@ -18,7 +18,7 @@ function DataGridEditRow(trId, aSpanIds, rowId, saveFormId, onEditFunction) {
     _trId = trId;
     _rowId = rowId;
     _saveForm = document.getElementById(saveFormId);
-    if (_saveForm) _saveForm.elements["Id"].value = rowId;
+    if (_saveForm) _saveForm.elements["ID"].value = rowId;
 
     if (onEditFunction != null) onEditFunction(rowId);
 }
