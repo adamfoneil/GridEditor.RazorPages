@@ -19,7 +19,7 @@ namespace GridEditor.RazorPages
         /// <summary>
 		/// Conveys a success or error message in a Bootstrap alert div
 		/// </summary>											 
-		public static IHtmlContent ActionAlert<T>(this IHtmlHelper<T> html, ITempDataDictionary tempData)
+        public static IHtmlContent ActionAlert<T>(this IHtmlHelper<T> html, ITempDataDictionary tempData)
         {
             foreach (string @class in AlertCss.AllMessageTypes)
             {
