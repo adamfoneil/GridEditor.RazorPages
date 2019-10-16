@@ -1,4 +1,4 @@
-This is something I've used internally forever in some version or another for implementing inline table editing. I know there are much more polished and capable table editors out there, but they rely on javascript. I like to do stuff in Razor where possible, and in the very simplest way possible. (There is javascript in my solution, but you might can tell it's not my first love.) Also, my approach has no particular backend/database/ORM dependency.
+This is something I've used internally forever in some version or another for implementing inline table editing. I know there are much more polished and capable table editors out there, but they rely on javascript. I like to do stuff in Razor where possible, and in the very simplest way. (There is javascript in my solution, but you might can tell it's not my first love.) Also, my approach has no particular backend/database/ORM dependency.
 
 To use this:
 - install nuget package **GridEidtor.RazorPages**
@@ -23,3 +23,7 @@ Examples from [Ginseng](https://github.com/adamosoftware/Ginseng8):
 Note that my save and delete handlers are specific to my backend, not related to GridEditor directly. I'm just highlighting them for completeness' sake.
 
 ![img](https://adamosoftware.blob.core.windows.net:443/images/GridEditor/GridEditor-AwayHours.gif)
+
+Here's a blow-by-blow of the code involved in the .cshtml portion:
+
+![img](https://adamosoftware.blob.core.windows.net:443/images/GridEditor/GridEditorAwayHours.png)
