@@ -297,7 +297,7 @@ namespace GridEditor.RazorPages
         /// Renders hidden forms that handle the save and delete post submissions
         /// </summary>
         /// <param name="saveHandler">Be sure to name your Razor page handler like OnPost{saveHandler}</param>
-        /// <param name="deleteHandler">Be sure to name your Razor page handler like OnPose{deleteHandler}</param>
+        /// <param name="deleteHandler">Be sure to name your Razor page handler like OnPost{deleteHandler}</param>
         public object HandlerForms(string saveHandler, string deleteHandler, string returnUrl = null)
         {
             TagBuilder formSpan = new TagBuilder("span");
