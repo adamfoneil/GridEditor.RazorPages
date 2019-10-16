@@ -27,3 +27,5 @@ Note that my save and delete handlers are specific to my backend, not related to
 Here's a blow-by-blow of the code involved in the .cshtml portion:
 
 ![img](https://adamosoftware.blob.core.windows.net:443/images/GridEditor/GridEditorAwayHours.png)
+
+If by a strange turn of events you find this useful, please consider [buying me a coffee](https://paypal.me/adamosoftware).
