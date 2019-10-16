@@ -1,4 +1,4 @@
-This is something I've used internally forever in some version or another for implementing inline table editing. I know there are much more polished and capable table editors out there, but they rely on javascript. I like to do stuff in Razor where possible, and in the very simplest way. (There is javascript in my solution, but you might can tell it's not my first love.) Also, my approach has no particular backend/database/ORM dependency.
+This is something I've used internally forever in some version or another for implementing inline table editing. I know there are much more polished and capable table editors out there, but they rely on javascript. I like to do stuff in Razor where possible, and in the very simplest way. (There is javascript in my solution, but you might can tell it's not my first love.) Also, please note my approach has no particular backend/database/ORM dependency. In my examples, I'm using [Postulate](https://postulate-orm.io) as my ORM.
 
 To use this:
 - install nuget package **GridEidtor.RazorPages**
