@@ -22,4 +22,4 @@ Examples from [Ginseng](https://github.com/adamosoftware/Ginseng8):
 
 Note that my save and delete handlers are specific to my backend, not related to GridEditor directly. I'm just highlighting them for completeness' sake.
 
-![img](https://1drv.ms/u/s!AvguHRnyJtWMluo9DtKQoBLCOlmM2w?e=Vzl91U)
+![img](https://adamosoftware.blob.core.windows.net:443/images/GridEditor/GridEditor-AwayHours.gif)
