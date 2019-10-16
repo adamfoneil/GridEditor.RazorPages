@@ -6,7 +6,7 @@ To use this:
 - create handlers in your Razor page for **save** and **delete** actions. As I mention above, there's no backend dependency here, but my examples use Postulate ORM.
 - optionally, use extension method [Html.ActionAlert](https://github.com/adamosoftware/GridEditor.RazorPages/blob/master/GridEditor.RazorPages/AlertHelper.cs#L22) to convey error messages in a Bootstrap alert div. This uses `TempData`, relying on some [helper methods](https://github.com/adamosoftware/GridEditor.RazorPages/blob/master/GridEditor.RazorPages/TempDataHelper.cs) for writing success and error messages in a specific way.
 
-GridEditor is meant to work within the markup of a regular HTML table. You create an instance of a `GridEditor<T>` in your Razor page, then loop through some collection in your page's model, using GridEditor methods to render controls like text boxes, dropdowns, and checkboxes. In the last `td` of your table row, use the `GridEditor.Controls` method to render edit/delete and save/cancel links.
+GridEditor is meant to work within the markup of a regular HTML table. You create an instance of a `GridEditor<T>` in your Razor page, then loop through some collection in your page's model, using GridEditor methods to render controls like text boxes, dropdowns, and checkboxes. In the last `td` of your table row, use the [Controls](https://github.com/adamosoftware/GridEditor.RazorPages/blob/master/GridEditor.RazorPages/GridEditor.cs#L84) method to render edit/delete and save/cancel links.
 
 These are the supported control types:
 - [TextBox](https://github.com/adamosoftware/GridEditor.RazorPages/blob/master/GridEditor.RazorPages/GridEditor.cs#L167)
