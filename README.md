@@ -17,3 +17,9 @@ Examples from [Ginseng](https://github.com/adamosoftware/Ginseng8):
 - [Application Setup page](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Applications.cshtml) with [save](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L32) and [delete](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L39) handlers
 
 - [Activities](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml) with [save](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L32) and [delete](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/Activities.cshtml.cs#L39) handlers
+
+- [AwayHours](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/AwayHours.cshtml) with [save](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/AwayHours.cshtml.cs#L29) and [delete](https://github.com/adamosoftware/Ginseng8/blob/master/Ginseng8.Mvc/Pages/Setup/AwayHours.cshtml.cs#L42) handlers.
+
+Note that my save and delete handlers are specific to my backend, not related to GridEditor directly. I'm just highlighting them for completeness' sake.
+
+![img](https://1drv.ms/u/s!AvguHRnyJtWMluo9DtKQoBLCOlmM2w?e=Vzl91U)
